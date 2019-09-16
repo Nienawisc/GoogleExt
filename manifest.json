@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Elo elo",
+  "version": "1.0",
+
+  "description": "by Nienawiść",
+  "author": "Nienawiść",
+
+  "content_scripts": [{
+    "js": ["jquery.min.js","content.js"],
+    "matches": ["<all_urls>"]
+  }],
+  "short_name": "Gołe panie i goli panowie"
+}
+
